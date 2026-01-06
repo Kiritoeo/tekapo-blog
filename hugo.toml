@@ -1,0 +1,35 @@
+baseURL = "https://tekapo.wang/"
+languageCode = "zh-cn"
+title = "Tekapo's Blog"
+theme = "diary"
+
+# 分页设置
+[pagination]
+  pagerSize = 10
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true # 允许 Markdown 内嵌 HTML
+
+[params]
+  description = "记录我"
+  copyright = "Tekapo Wang"
+  googleFonts = "https://fonts.googleapis.com/css?family=Lora:400,400i,700"
+  
+  # ✅ 你的核心需求：开启数学公式
+  math = true 
+  
+  # ✅ 你的核心需求：代码高亮
+  highlight_theme = "github" 
+  
+  # 左侧侧边栏的座右铭
+  subtitle = "The stars are not afraid to appear like fireflies."
+
+[[menu.main]]
+  url = "/posts"
+  name = "文章"
+  weight = 1
+[[menu.main]]
+  url = "/tags"
+  name = "标签"
+  weight = 2
