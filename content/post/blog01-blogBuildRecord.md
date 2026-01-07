@@ -2,12 +2,13 @@
 title: "基于hugo-next主题的博客搭建全过程记录"
 date: 2026-01-06
 categories:
-  - "建站日志"
+  - "理想"
 tags:
   - "Hugo"
   - "Nginx"
+  - "博客搭建"
 description: "记录 tekapo.wang 建站的全过程，包括服务器购买、Nginx配置与Hugo部署。"
-weight: 0 
+weight: 1
 ---
 
 ## 云服务器、域名购买

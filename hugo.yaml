@@ -210,11 +210,21 @@ menus:
       pageRef: /about
       pre: user
       weight: 2
+    - identifier: reality
+      name: 现实
+      pageRef: categories/现实
+      pre: briefcase 
+      weight: 3
+    - identifier: dream 
+      name: 理想
+      pageRef: categories/理想
+      pre: star 
+      weight: 4         
     - identifier: archives
       name: 归档
       pageRef: /archives
       pre: archive
-      weight: 3
+      weight: 5
 
 #-----------------------------------------
 # Hugo NexT 主题参数配置
@@ -345,7 +355,7 @@ params:
     #  - always  expand for all pages automatically.
     #  - hide    expand only when click on the sidebar toggle icon.
     #  - remove  totally remove sidebar including sidebar toggle.
-    display: post
+    display: always
 
     # 侧边栏内部填充像素大小
     # Sidebar padding in pixels.

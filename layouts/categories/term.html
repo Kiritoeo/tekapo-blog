@@ -1,0 +1,26 @@
+{{ define "main_inner_class" }}index posts-expand{{ end }}
+
+{{ define "main" }}
+  {{/* 1. 保留分类标题，让用户知道当前在哪里 */}}
+  <div class="post-block">
+    <div class="post-content">
+      <div class="collection-title">
+        <span class="collection-header">
+          <h2 style="opacity: 1; display: block;">
+            {{ .Title }}
+            <small>{{ T .Data.Singular | default .Data.Singular }}</small>
+          </h2>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  {{/* 2. 核心修改：像主页一样遍历显示文章摘要/卡片 */}}
+  {{ $paginator := .Paginate .Pages }}
+  {{ range $paginator.Pages }}
+     {{/* 借用 IsHome=true 参数，让 post.html 以为自己在主页，从而显示摘要和格式 */}}
+     {{ partial "post.html"  (dict "ctx" . "IsHome" true) }}
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+{{ end }}
