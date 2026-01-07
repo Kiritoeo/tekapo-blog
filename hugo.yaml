@@ -215,36 +215,11 @@ menus:
       pageRef: /flinks
       pre: thumbs-up
       weight: 3
-    - identifier: example
-      name: 语法示例
-      pre: angles-down
-      weight: 4
-    - identifier: syntax
-      name: 语法高亮
-      pageRef: /post/09-syntax-highlighting
-      weight: 1
-      parent: example
-    
-    - identifier: math
-      name: 数学公式
-      pageRef: /post/10-math-formula
-      weight: 2 
-      parent: example
-    - identifier: flow-charts
-      name: 流程图
-      pageRef: /post/11-mermaid-charts
-      weight: 3
-      parent: example
     - identifier: archives
       name: 归档
       pageRef: /archives
       pre: archive
-      weight: 5
-    - identifier: commonweal
-      name: 公益 404
-      pageRef: /404.html
-      pre: heartbeat
-      weight: 6
+      weight: 4
 
 #-----------------------------------------
 # Hugo NexT 主题参数配置
@@ -298,7 +273,7 @@ params:
   customFilePath:
     sidebar: custom_sidebar.html
     footer: custom_footer.html
-    style: /css/custom_style.css
+    # style: /css/custom_style.css
 
   # 知识共享国际许可 4.0
   # 更多信息： https://creativecommons.org/about/cclicenses/
