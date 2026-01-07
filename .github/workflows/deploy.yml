@@ -12,14 +12,14 @@ jobs:
       - name: 1. 拉取代码
         uses: actions/checkout@v4
         with:
-          submodules: true  # ✅ 必须开启，否则 Diary 主题为空
+          submodules: true
           fetch-depth: 0
 
       - name: 2. 安装 Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
-          extended: true   # ✅ 必须开启 Extended 版本
+          extended: true   
 
       - name: 3. 编译博客
         run: hugo --minify
@@ -30,6 +30,7 @@ jobs:
           host: ${{ secrets.SERVER_IP }}
           username: root
           key: ${{ secrets.DEPLOY_KEY }}
-          source: "public/"
+          source: "public/*"
           target: "/var/www/html/tekapo-blog/"
-          strip_components: 1 # ✅ 移除 public 这一层，直接放内容
+          strip_components: 1 # 移除 public 这一层，直接放内容
+          rm: true # 删除目标路径下的现有文件

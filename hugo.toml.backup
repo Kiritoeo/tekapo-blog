@@ -25,11 +25,9 @@ theme = "diary"
   # 左侧侧边栏的座右铭
   subtitle = "The stars are not afraid to appear like fireflies."
 
+  customCSS = ["css/custom.css"]
+
 [[menu.main]]
   url = "/posts"
   name = "文章"
   weight = 1
-[[menu.main]]
-  url = "/tags"
-  name = "标签"
-  weight = 2

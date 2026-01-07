@@ -1,0 +1,11 @@
+/* 强制全文使用优雅的衬线字体 */
+body {
+    font-family: "Lora", "Noto Serif SC", "Source Serif Pro", "Georgia", "Yu Mincho", "MS PMincho", serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 标题加粗并调整间距 */
+h1, h2, h3 {
+    font-family: inherit;
+    font-weight: 700;
+}
