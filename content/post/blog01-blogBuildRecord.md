@@ -10,17 +10,17 @@ description: "记录 tekapo.wang 建站的全过程，包括服务器购买、Ng
 weight: 0 
 ---
 
-## 一、云服务器、域名购买
+## 云服务器、域名购买
 
-### 1. 云服务器信息
+### 云服务器信息
 
-### 2.域名信息
+### 域名信息
 
 `tekapo.wang`
 
-## 二、域名解析
+## 域名解析
 
-## 三、安装Nginx
+## 安装Nginx
 
 ```bash
 apt update && apt install nginx -y
@@ -121,7 +121,7 @@ No VM guests are running outdated hypervisor (qemu) binaries on this host.
 root@tekapo-server:~#
 ```
 
-## 四、安装Hugo并创建工作目录
+## 安装Hugo并创建工作目录
 
 ```bash
 加载个人及系统配置文件用了 789 毫秒。
@@ -173,7 +173,7 @@ warning: in the working copy of '.gitmodules', LF will be replaced by CRLF the n
 (base) PS E:\MyHugoProject\tekapo-blog>
 ```
 
-## 五、部署
+## 部署
 
 配置公钥私钥
 
