@@ -6,3 +6,5 @@ blog_key.pub
 public/
 
 resources/
+
+.hugo_build.lock
