@@ -15,7 +15,7 @@
 baseURL: https://tekapo.wang/
 # 站点标题
 # Website title
-title: Tekapo Blog
+title: Tekapo's Blog
 # 主题名称
 # Theme name
 theme: hugo-theme-next
@@ -251,18 +251,18 @@ params:
 
   # 站点基本信息
   # Site Information Settings
-  author: NexT 主题
-  subtitle: 为 Hugo 打造的主题
-  description: 保持简单的易用性和强大的功能。
-  keywords: Hugo,NexT,主题,简单,强大
+  author: TekapoWang
+  subtitle: 只是糟糕的一天，不是糟糕的一生，放轻松。
+  description: 现实的理想主义者
+  #keywords: Hugo,NexT,主题,简单,强大
 
   # 不同尺寸站点图标
   # Different size of favicon
   favicon:
-    icon: /imgs/icons/favicon.ico
-    small: /imgs/icons/favicon_16x16_next.png
-    medium: /imgs/icons/favicon_32_32_next.png
-    appleTouchIcon: /imgs/icons/apple_touch_icon_next.png
+    icon: /imgs/icons/my_favicon.ico
+    small: /imgs/icons/my_favicon.ico
+    medium: /imgs/icons/my_favicon.ico
+    appleTouchIcon: /imgs/icons/my_favicon.ico
 
   # 自定义 Logo （目前只支持 Mist 页面模式）
   # Custom Logo (Warning: Only support scheme Mist)
@@ -364,7 +364,7 @@ params:
   avatar:
     # 设置显示头像的相对路径
     # Replace the default image and set the url here.
-    url: /imgs/hugo_next_avatar.png
+    url: /imgs/my_avatar.jpg
     # 开启头像的圆形显示效果
     # If true, the avatar will be displayed in circle.
     rounded: true
@@ -392,9 +392,9 @@ params:
   # Key is the link label order.
   # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
   socials: 
-    social0: Github || https://github.com/elkan1788 || fab fa-github
+    social0: Github || https://github.com/Kiritoeo || fab fa-github
     #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-    social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+    social2: 知乎 || https://www.zhihu.com/people/zhu-que-88-42/answers || fa fa-book
     #Google: https://plus.google.com/yourname || fab fa-google
     #Twitter: https://twitter.com/yourname || fab fa-twitter
     #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -425,7 +425,7 @@ params:
     icon: fa fa-globe
     # 显示标题
     # Show title
-    title: 友情链接
+    title: U链
     # 可选值： block | inline
     # Available values: block | inline
     layout: inline
@@ -436,7 +436,7 @@ params:
   # Usage: `Key: name || permalink`
   links: 
     link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-    link1: 凡梦星尘空间站 || https://lisenhui.cn
+    #link1: 凡梦星尘空间站 || https://lisenhui.cn
 
   # 文章目录显示
   # Table of Contents in the Sidebar
@@ -467,7 +467,7 @@ params:
     # 站点开始年份，默认为当下时间的年份
     # Specify the year when the site was setup. 
     # If not defined, current year will be used.
-    since: 2010
+    since: 2026
 
     # 年份和版权信息之间的图标
     # Icon between year and copyright info.
@@ -494,7 +494,7 @@ params:
     # Beian ICP and gongan information for Chinese users. 
     # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
     beian:
-      enable: true
+      enable: false
       # ICP 备案的具体信息
       icp: 粤ICP备 18047355-1 号
       # 公安网备的省份简称
@@ -565,7 +565,7 @@ params:
       plugin: waline
     # 是否开启页面访问数显示
     views:
-      enable: false
+      enable: true
       # 页面访问统计插件，支持busuanzi, waline, waline3, twikoo (其中 twikoo 仅支持文章页显示)
       # Page views counter plugin, support: busuanzi, waline, waline3, twikoo (twikoo only support in post page)
       plugin: busuanzi
@@ -649,7 +649,7 @@ params:
   # Post edit
   # Easily browse and edit blog source code online.
   postEdit:
-    enable: true
+    enable: false
     url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/
 
 
@@ -751,7 +751,7 @@ params:
     enable: true
     # 你的 Github 仓库地址
     # Your repository url on Github.
-    permalink: https://github.com/hugo-next
+    permalink: https://github.com/Kiritoeo
     # 关注说明
     # Show this title when cursor move on.
     title: Follow me on GitHub
