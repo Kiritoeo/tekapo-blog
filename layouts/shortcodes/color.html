@@ -1,0 +1,5 @@
+{{- $color := .Get 0 -}}
+{{- if eq $color "theme" -}}
+  {{- $color = "#fc6423" -}}
+{{- end -}}
+<span style="color: {{ $color }};">{{ .Inner }}</span>
