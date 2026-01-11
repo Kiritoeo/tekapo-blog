@@ -383,7 +383,7 @@ params:
     # 站点访问信息
     # Site's view information
     views:  
-      enable: false
+      enable: true
       # 组件类型，可选值为： 51la, busuanzi
       # 使用51la时需要注册账号：https://invite.51.la/
       # Plguin value is: 51la, busuanzi
@@ -573,7 +573,7 @@ params:
       enable: true
       # 页面访问统计插件，支持busuanzi, waline, waline3, twikoo (其中 twikoo 仅支持文章页显示)
       # Page views counter plugin, support: busuanzi, waline, waline3, twikoo (twikoo only support in post page)
-      plugin: twikoo
+      plugin: busuanzi
     # 是否开启过期提示
     # Expired tip
     expired: false
@@ -1255,7 +1255,7 @@ params:
     internal: local
     # The default CDN provider of third-party plugins.
     # Available values: local | cdnjs | unpkg | jsdelivr | staticfile | bootcdn | 7ed | zstatic | zeyao | custom
-    plugins: local
+    plugins: jsdelivr
     # Custom CDN URL
     # For example:
     # custom_cdn_url: https://cdn.jsdelivr.net/npm/${npm_name}@${version}/${minified}
