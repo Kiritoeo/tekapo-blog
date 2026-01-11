@@ -3,6 +3,7 @@ title: "基于hugo-theme-next主题的博客搭建全过程记录"
 date: 2026-01-06
 categories:
   - "理想"
+  - "瞎折腾"
 tags:
   - "Hugo"
   - "Nginx"
