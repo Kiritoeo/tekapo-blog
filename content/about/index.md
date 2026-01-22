@@ -27,7 +27,7 @@ date: 2026-01-07
 ---
 {{< quote >}}
 **技术之外**  
-{{< color theme >}}ENFJ-A大剑哥{{< /color >}}  
+{{< color theme >}}ENFJ{{< /color >}}  
 羽毛球重度成瘾 <u>（最喜欢的运动员：石宇奇）</u>  
 喜欢徒步、登山、骑行、健身  
 {{< color theme >}}动漫重度成瘾{{< /color >}}  
